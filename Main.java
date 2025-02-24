@@ -52,6 +52,7 @@ public class Main
    */
   public static int searchSecond(final ArrayList<String> arr, String target)
   {
+    // a bit unsatisfied with this (can probably use a while loop)
     int appearance = 0;
     for(int i = 0; i < arr.size(); i++) {
         String element = arr.get(i);
